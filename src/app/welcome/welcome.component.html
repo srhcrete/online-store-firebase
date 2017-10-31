@@ -1,0 +1,1 @@
+<p>Welcome to our store.</p>

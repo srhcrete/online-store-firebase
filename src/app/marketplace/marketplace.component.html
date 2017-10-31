@@ -1,6 +1,6 @@
 <h2>Marketplace</h2>
 
-<div *ngFor="let album of albums">
+<div *ngFor="let album of albums" (click)="goToDetailPage(album)">
   <div class="card">
     <h3><em>{{album.title}}</em> by {{album.artist}}</h3>
   </div>
